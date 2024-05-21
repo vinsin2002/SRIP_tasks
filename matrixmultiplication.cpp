@@ -2,7 +2,7 @@
 #include <omp.h>
 using namespace std;
 int main() {
-    const int N = 3000; 
+    const int N = 1000; 
     vector<vector<int>> matA(N, vector<int>(N, 1));
     vector<vector<int>> matB(N, vector<int>(N, 2));
     vector<vector<int>> matC(N, vector<int>(N, 0));
